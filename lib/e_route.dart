@@ -11,7 +11,7 @@ class ERoute extends StatefulWidget{
 class _ERouteState extends StateWithLifecycle<ERoute>{
   @override
   void initState() {
-    state_with_lifecycle_tag = "ERoute";
+    tagInStateWithLifecycle = "ERoute";
     super.initState();
   }
   @override

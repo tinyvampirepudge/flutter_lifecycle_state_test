@@ -11,7 +11,7 @@ class BRoute extends StatefulWidget {
 class _BRouteState extends StateWithLifecycle<BRoute> {
   @override
   void initState() {
-    state_with_lifecycle_tag = "BRoute";
+    tagInStateWithLifecycle = "BRoute";
     super.initState();
   }
 

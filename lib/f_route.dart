@@ -9,7 +9,7 @@ class FRoute extends StatefulWidget {
 class _FRouteState extends StateWithLifecycle<FRoute> {
   @override
   void initState() {
-    state_with_lifecycle_tag = "FRoute";
+    tagInStateWithLifecycle = "FRoute";
     super.initState();
   }
 

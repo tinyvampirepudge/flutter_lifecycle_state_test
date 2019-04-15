@@ -13,7 +13,7 @@ class ARoute extends StatefulWidget{
 class _ARouteState extends StateWithLifecycle<ARoute>{
   @override
   void initState() {
-    state_with_lifecycle_tag = "ARoute";
+    tagInStateWithLifecycle = "ARoute";
     super.initState();
   }
 

@@ -12,7 +12,7 @@ class _CRouteState extends StateWithLifecycle<CRoute>{
 
   @override
   void initState() {
-    state_with_lifecycle_tag = "CRoute";
+    tagInStateWithLifecycle = "CRoute";
     super.initState();
   }
 

@@ -56,7 +56,7 @@ class _MyHomePageState extends StateWithLifecycle<MyHomePage> {
 
   @override
   void initState() {
-    state_with_lifecycle_tag = "Home";
+    tagInStateWithLifecycle = "Home";
     super.initState();
   }
 

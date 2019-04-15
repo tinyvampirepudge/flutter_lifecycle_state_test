@@ -12,7 +12,7 @@ class _DRouteState extends StateWithLifecycle<DRoute>{
 
   @override
   void initState() {
-    state_with_lifecycle_tag = "DRoute";
+    tagInStateWithLifecycle = "DRoute";
     super.initState();
   }
   @override
